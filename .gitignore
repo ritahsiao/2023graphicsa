@@ -5,7 +5,8 @@
 *.slo
 *.lo
 *.o
-*.obj
+# *.obj
+#因為我們要備份 3D模型檔案
 
 # Precompiled Headers
 *.gch
@@ -23,8 +24,9 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
+# *.a
+# *.lib
+#因為我們要備份 所以要將freeglut目錄內的freeglut32.a等檔案
 
 # Executables
 *.exe
